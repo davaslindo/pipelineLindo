@@ -38,7 +38,8 @@ jobs:
         run: docker info
 
       - name: Build Docker image
-        run: docker build -t daviscavalcante/projeto_desafio:latest .
+        run: docker build -t daviscavalcante/projeto_desafio:latest
 
       - name: Push Docker image
         run: docker push daviscavalcante/projeto_desafio:latest
+#fim
